@@ -15,6 +15,6 @@ x1 = x1%2*x1
 x2 = x2%2*x2
 x3 = x3%2*x3
 x4 = x4%2*x4
-sum_even = x1+x2+x3+x4
+sum_odd = x1+x2+x3+x4
 var_int = x
 print(sum_odd)
