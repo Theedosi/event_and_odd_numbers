@@ -1,6 +1,7 @@
 #A four-digit integer is given. Find the number of even digits in it.
 #Create a variable "var_int" and assign it a four-digit integer value.
 var_int =8234
+x = var_int
 #Print the number of even digits in the variable "var_int".
 a1 = var_int%10 #4
 var_int = var_int//10 #123
@@ -12,4 +13,5 @@ a1 = (a1+3)%2
 a2 = (a2+3)%2
 a3 = (a3+3)%2
 a4 = (a4+3)%2
+var_int = x
 print(a1+a2+a3+a4)
